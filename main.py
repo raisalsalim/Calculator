@@ -22,7 +22,7 @@ root = tk.Tk()
 root.title("Red Calculator")
 
 # Create a frame with a red border
-frame = tk.Frame(root, bd=5, relief="ridge", borderwidth=5, bg="red")
+frame = tk.Frame(root, bd=5, relief="ridge", borderwidth=5, bg="blue")
 frame.pack(padx=10, pady=10)
 
 # Create an entry widget for the display
